@@ -2,6 +2,8 @@
 
 A simplified AI PaaS demonstrating API key management, model deployment, and OpenAI-compatible inference with simulated distributed GPU workers.
 
+**Live demo (deployed):** [https://tether-test.vercel.app/](https://tether-test.vercel.app/)
+
 ## Architecture Overview
 
 - **Backend**: Node.js (Express) with API key management, inference routing, and an in-memory task queue distributing work across simulated worker nodes.
@@ -95,8 +97,9 @@ cd backend && npm test
 
 ## Documentation
 
-- **API**: OpenAPI 3.0 spec in `docs/api-openapi.yaml`
-- **Architecture**: `docs/ARCHITECTURE.md` — for a 2–3 page PDF, open the Markdown in an editor or use a tool (e.g. Pandoc, VS Code “Markdown PDF” extension) to export to PDF.
+- **Live demo (deployed):** [https://tether-test.vercel.app/](https://tether-test.vercel.app/)
+- **API documentation (OpenAPI):** `docs/api-openapi.yaml`
+- **Architecture document (2–3 pages):** `docs/ARCHITECTURE.md` — for a 2–3 page PDF, open the Markdown in an editor or use a tool (e.g. Pandoc, VS Code “Markdown PDF” extension) to export to PDF.
 
 ## First-time dashboard login
 
